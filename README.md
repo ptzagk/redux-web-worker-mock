@@ -1,2 +1,3 @@
 # redux-web-worker-mock
-An attempt of making a full redux store on web-workers
+
+A basic demo of a redux/reselect store in a web-worker

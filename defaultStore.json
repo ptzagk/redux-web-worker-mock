@@ -1,0 +1,9 @@
+{
+  "items": [
+    {
+      "id": "-1",
+      "label": "default data retieved by the worker",
+      "done": false
+    }
+  ]
+}
