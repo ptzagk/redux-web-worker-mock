@@ -7,7 +7,9 @@ import selectors from '../selectors/selectors';
 (async function main(){
 
     // retrive data
-    const defaultStore = await self.fetch('/defaultStore.json')
+    // fetch is provided by webpack with this config...
+    // http://mts.io/2015/04/08/webpack-shims-polyfills/
+    const defaultStore = await fetch('/defaultStore.json')
         .then(response => response.json());
 
     const store = createStore(combineReducers(reducers), defaultStore);
