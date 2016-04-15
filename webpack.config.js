@@ -8,7 +8,7 @@ const webpack = require('webpack');
 
 const defaultConfig = {
     entry: {
-        'main': path.resolve('src/main.js')
+        'client': path.resolve('src/client.js')
     },
     output: {
         filename: '[name].js',
